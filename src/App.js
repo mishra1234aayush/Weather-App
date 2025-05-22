@@ -1,11 +1,10 @@
-import Fak from './component/Fak';
-import Weather from './component/Weather';
+
+import WeatherApp from '../component/WeatherApp';
 function App() {
 
   return (
     <div>
-      {/* <Weather /> */}
-      <Fak />
+       <WeatherApp />
     </div>
   );
 }
