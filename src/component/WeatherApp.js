@@ -3,7 +3,7 @@ import axios from 'axios';
 import logo from '../Images/images.jpg';
 import '../App.css'; // assuming CSS is moved here
 
-const Fak = () => {
+const WeatherApp = () => {
   const [name, setName] = useState('Jaipur');
   const [tem, setTem] = useState('');
   const [windspeed, setWindspeed] = useState('');
@@ -68,4 +68,4 @@ const Fak = () => {
   );
 };
 
-export default Fak;
+export default WeatherApp;
