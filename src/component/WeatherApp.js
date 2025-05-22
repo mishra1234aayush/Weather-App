@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import logo from '../Images/images.jpg';
-import '../App.css'; // assuming CSS is moved here
+import '../App.css';
 
 const WeatherApp = () => {
   const [name, setName] = useState('Jaipur');
